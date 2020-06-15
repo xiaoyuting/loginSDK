@@ -22,11 +22,11 @@ Pod::Spec.new do |spec|
    spec.description  = <<-DESC
                 wqwqe
                     DESC
-   spec.homepage     = "http://EXAMPLE/loginSDK"
+   spec.homepage     = "https://github.com/xiaoyuting/loginSDK.git"
    spec.author             = { "xiaoyuting" => "xiaoyuting" }
-   spec.platform     = :ios
-   spec.ios.deployment_target = "9.0"
+   spec.platform     = :ios, "9.0"
+    
    spec.source       = { :git => "https://github.com/xiaoyuting/loginSDK.git", :tag => "#{spec.version}" }
    spec.requires_arc = true
-   spec.vendored_frameworks = "login.framework"
+   spec.vendored_frameworks = 'loginSDK.framework'
 end

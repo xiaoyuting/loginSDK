@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "login"
-  spec.version      = "1.0"
+  spec.version      = "1.1"
   spec.summary      = "A short description of login."
 
    spec.description  = <<-DESC
